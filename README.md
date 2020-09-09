@@ -22,9 +22,9 @@ Non-Bundled Plugins: GsonFormat
 
 ## 缺少jar包，无法通过pom自动下载
 ```
-mvn install:install-file -Dfile=D:\ueditor-1.1.2.jar 							-DgroupId=com.baidu 	-DartifactId=ueditor 				-Dversion=1.1.2 			-Dpackaging=jar
-mvn install:install-file -Dfile=D:\json.jar 		 							-DgroupId=com.json  	-DartifactId=json    				-Dversion=1.1   			-Dpackaging=jar
-mvn install:install-file -Dfile=D:\fastdfs-client-java-1.29-SNAPSHOT.jar 		-DgroupId=org.csource   -DartifactId=fastdfs-client-java    -Dversion=1.29-SNAPSHOT   	-Dpackaging=jar
+mvn install:install-file -Dfile=D:\ueditor-1.1.2.jar -DgroupId=com.baidu -DartifactId=ueditor -Dversion=1.1.2 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\json.jar 	     -DgroupId=com.json  -DartifactId=json    -Dversion=1.1   -Dpackaging=jar
+mvn install:install-file -Dfile=D:\fastdfs-client-java-1.29-SNAPSHOT.jar -DgroupId=org.csource   -DartifactId=fastdfs-client-java    -Dversion=1.29-SNAPSHOT   	-Dpackaging=jar
 ```
 
 ## Run/Debug Configurations
@@ -67,6 +67,3 @@ Command line:clean tomcat7:run
 3. [Tmall-pages](https://github.com/Catsugar/Tmall-pages)
 4. [Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper) [操作说明](https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md)
 5. [ueditor](https://github.com/fex-team/ueditor)
-
-
-
