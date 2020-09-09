@@ -1,5 +1,8 @@
 # manong
 
+## 联系方式
+
+- 邮箱 zyannan01@qq.com 
 
 ## IDE
 ```
@@ -57,6 +60,13 @@ Command line:clean tomcat7:run
 <localRepository>E:/mavenrepository</localRepository>
 ```
 
+## 引用其他的仓库组件
+
+1. [fastdfs](https://github.com/happyfish100/fastdfs)  [操作说明](https://github.com/happyfish100/fastdfs/wiki)
+2. [fastdfs-client-java](https://github.com/happyfish100/fastdfs-client-java) 下载下来，用idea打开，install，生成fastdfs-client-java-1.29-SNAPSHOT.jar
+3. [Tmall-pages](https://github.com/Catsugar/Tmall-pages)
+4. [Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper) [操作说明](https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md)
+5. [ueditor](https://github.com/fex-team/ueditor)
 
 
 
